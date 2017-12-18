@@ -1,0 +1,49 @@
+[2017-12-18T15:56:00.635] [ERROR] error - SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306 - 27ms
+[2017-12-18T15:56:34.881] [ERROR] error - SequelizeConnectionRefusedError: connect ECONNREFUSED 127.0.0.1:3306 - 17ms
+[2017-12-18T15:57:37.617] [ERROR] error - SequelizeAccessDeniedError: Access denied for user ''@'172.25.34.56' (using password: NO) - 138ms
+[2017-12-18T15:57:39.026] [ERROR] error - SequelizeAccessDeniedError: Access denied for user ''@'172.25.34.56' (using password: NO) - 81ms
+[2017-12-18T16:01:07.447] [ERROR] error - SequelizeDatabaseError: Table 'test.news' doesn't exist - 42ms
+[2017-12-18T16:12:08.582] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/list.ejs' - 11ms
+[2017-12-18T16:14:50.341] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/list.ejs' - 1ms
+[2017-12-18T16:15:50.765] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/list.ejs' - 13ms
+[2017-12-18T16:16:33.809] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/list.ejs' - 8ms
+[2017-12-18T16:16:57.694] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 8ms
+[2017-12-18T16:18:06.142] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 13ms
+[2017-12-18T16:18:30.405] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 13ms
+[2017-12-18T16:19:54.652] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 5ms
+[2017-12-18T16:19:57.344] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 0ms
+[2017-12-18T16:23:22.755] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 13ms
+[2017-12-18T16:23:24.188] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 0ms
+[2017-12-18T16:23:25.259] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/code/views/news/list.ejs' - 1ms
+[2017-12-18T16:24:09.729] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/views/news/list.ejs' - 8ms
+[2017-12-18T16:24:11.577] [ERROR] error - Error: ENOENT: no such file or directory, stat '/Users/leiquan/Desktop/views/news/list.ejs' - 1ms
+[2017-12-18T16:30:33.584] [ERROR] error - ReferenceError: News is not defined - 1ms
+[2017-12-18T16:31:29.471] [ERROR] error - ReferenceError: News is not defined - 10ms
+[2017-12-18T16:31:31.019] [ERROR] error - ReferenceError: News is not defined - 1ms
+[2017-12-18T16:40:52.497] [ERROR] error - ReferenceError: /Users/leiquan/Desktop/code/Koa Best Practice/views/news/list.ejs:5
+    3| <head>
+    4|     <title>
+ >> 5|         <%= title %>
+    6|     </title>
+    7|     <link rel="stylesheet" type="text/css" href="css/news.css">
+    8| </head>
+
+title is not defined - 12ms
+[2017-12-18T16:41:08.116] [ERROR] error - ReferenceError: /Users/leiquan/Desktop/code/Koa Best Practice/views/news/add.ejs:5
+    3| <head>
+    4|     <title>
+ >> 5|         <%= title %>
+    6|     </title>
+    7|     <link rel="stylesheet" type="text/css" href="css/news.css">
+    8| </head>
+
+title is not defined - 13ms
+[2017-12-18T16:41:45.371] [ERROR] error - ReferenceError: /Users/leiquan/Desktop/code/Koa Best Practice/views/news/add.ejs:5
+    3| <head>
+    4|     <title>
+ >> 5|         <%= title %>
+    6|     </title>
+    7|     <link rel="stylesheet" type="text/css" href="css/news.css">
+    8| </head>
+
+title is not defined - 17ms

@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/news.css">
+</head>
+
+<body>
+    <%= welcome %>
+        <hr/>
+        
+    <%
+    for(let i =0; i < news.length; i++) {
+    %>
+
+    <h2><%= news[i].title%>:</h2>
+    <span><%= news[i].content%></span>
+
+    <% 
+    }
+    %>
+
+
+</body>
+
+</html>
